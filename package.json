@@ -1,0 +1,21 @@
+{
+  "name": "angualr-view-loaded",
+  "version": "0.0.1",
+  "description": "angualr-view-loaded",
+  "main": "dist/angualr-view-loaded.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://172.18.8.50/dependency/angualr-view-loaded.git"
+  },
+  "keywords": [
+    "angualr",
+    "viewloaded",
+    "webpack",
+    "es6"
+  ],
+  "author": "jarden-liu",
+  "license": "MIT"
+}
