@@ -2,9 +2,10 @@
   "name": "angualr-view-loaded",
   "version": "0.0.1",
   "description": "angualr-view-loaded",
-  "main": "dist/angualr-view-loaded.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel angular-view-loaded.src.js --out-file angualr-view-loaded.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,18 @@
     "es6"
   ],
   "author": "jarden-liu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
 }
