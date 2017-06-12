@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel angular-view-loaded.src.js --out-file angualr-view-loaded.js"
+    "build": "babel angular-view-loaded.src.js --out-file angular-view-loaded.js"
   },
   "repository": {
     "type": "git",
